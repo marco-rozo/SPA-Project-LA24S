@@ -1,0 +1,119 @@
+:root {
+    --text-primary: #4961D8;
+    --text-dark: #012970;
+    --text-orange: #FF901C;
+    --text-green: #70C913;
+    --text-blue-green: #08D5C0;
+    --text-pink: #FF0674;
+    --background-contact: #FAFBFF;
+}
+
+* {}
+
+section {
+    height: 100vh !important;
+}
+
+.new-text-primary {
+    color: var(--text-primary) !important;
+}
+
+.text-blue-dark {
+    color: var(--text-dark) !important;
+}
+
+.text-orange {
+    color: var(--text-orange) !important;
+}
+
+.text-green {
+    color: var(--text-green) !important;
+}
+
+.text-blue-green {
+    color: var(--text-blue-green) !important;
+}
+
+.text-pink {
+    color: var(--text-pink) !important;
+}
+
+.card-img-size {
+    width: auto;
+    height: auto;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.card-size-fixo-empresa {
+    width: 18rem;
+    height: 400px;
+}
+
+.card-size-fixo-planos {
+    width: 18rem;
+    height: 320px;
+}
+
+.card-contact {
+    height: 200px;
+    background-color: var(--background-contact);
+    padding: 1.5rem !important;
+}
+
+.w-47 {
+    width: 47.5% !important;
+    padding: 0 !important;
+}
+
+.width-100 {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.margin-r {
+    margin-right: 5%;
+}
+
+.card-form-contact {
+    background-color: var(--background-contact);
+    padding: 1.5rem !important;
+}
+
+.input-contact {
+    padding: 6px;
+    border: 1px solid #c7c7c7;
+}
+
+.border-radius-lados {
+    border-radius: 1.5rem !important;
+}
+
+#home {
+    background-image: url('/assets/background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
+
+footer {
+    background-color: #fafafa;
+    /* background-image: url('/assets/world_map_preview.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed; */
+    padding-inline: 10%;
+}
+
+footer p{
+    font-size: 0.9rem;
+    margin: 0!important;
+}
+
+.width-18{
+    width: 18% !important;
+}
+.width-45{
+    width: 45% !important;
+}
+

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Single Page Application</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css" rel="stylesheet" />
+    <!-- <script src='main.js'></script>
+    -->
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light rounded">
+            <div class="container-fluid">
+                <div class="new-text-primary fw-bold col-2 col-md-2">
+                    <h5>Single Page Application</h5>
+                </div>
+                <div class="collapse navbar-collapse justify-content-md-center col-8 col-md-8">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active new-text-primary fw-bold" aria-current="page"
+                                href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold text-blue-dark" href="#empresa">Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold text-blue-dark" href="#planos">Planos e Valores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold text-blue-dark" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-end col-2 col-md-2">
+                    <i data-feather="shopping-cart" class="me-4 text-blue-dark"></i>
+                    <i data-feather="bell" class="me-4 text-blue-dark"></i>
+                    <img class="rounded-circle me-2" style="height: 25px; width: 25px"
+                        src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                        title="Foto perfil" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- HOME -->
+    <section id="home" class="row w-100 justify-content-md-center pt-5" data-aos="fade-up" data-aos-delay="600"
+        data-aos-duration="800">
+        <!-- <div data-aos="fade-up" data-aos-delay="600" style="background-color: aqua;" class="row h-100 d-inline-block"> -->
+        <div class="d-flex justify-content-center flex-column align-items-center col-6 col-md-6">
+            <h1 class="col-7 col-md-7 fw-bold text-blue-dark">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h1>
+            <p class="col-7 col-md-7 fw-470 text-dark" style="font-size: 1.1rem;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. width Bootstrap
+            </p>
+            <div class="row col-7 col-md-7">
+                <a href="#" class="col-5 col-md-5 text-center btn btn-info me-2">Lorem Ipsum</a>
+                <a href="#" class="col-5 col-md-5 text-center btn btn-primary ms-2">Dolor sit</a>
+            </div>
+        </div>
+        <div class="col-5 col-md-5"></div>
+    </section>
+    <!-- EMPRESA -->
+    <section id="empresa" class="row w-100 justify-content-md-center pt-5">
+        <div class="d-flex justify-content-top flex-column align-items-center col-12 col-md-12 mt-5">
+            <p class="new-text-primary text-uppercase">EMPRESA</p>
+            <h3 class="fw-bold text-blue-dark">Pallentesque ornare, ipsum non feugiat aliquet</h3>
+        </div>
+        <div class="d-flex justify-content-center col-12 col-md-12 ">
+            <div class="card m-3 card-size-fixo-empresa p-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <img class="card-img-size mx-auto" src="assets/svg-empresa-1.svg" alt="Primeira imagem card">
+                <div class="card-body">
+                    <h5 class="card-title text-center text-blue-dark" style="height: 80px;">Integer vel lectus vitae lectus ullamcorper</h5>
+                    <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                        bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card m-3 card-size-fixo-empresa p-3" data-aos="fade-down" data-aos-delay="250" data-aos-duration="800">
+                <img class="card-img-size mx-auto" src="assets/svg-empresa-2.svg" alt="Segunda imagem card">
+                <div class="card-body">
+                    <h5 class="card-title text-center text-blue-dark" style="height: 80px;">Nullam euismod augue fermentum lacus placerat</h5>
+                    <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                        bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card m-3 card-size-fixo-empresa p-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="800">
+                <img class="card-img-size mx-auto" src="assets/svg-empresa-3.svg" alt="Terceira imagem card">
+                <div class="card-body">
+                    <h5 class="card-title text-center text-blue-dark" style="height: 80px;">Pallentesque rutrum, odio quis fermentum</h5>
+                    <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                        bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLANOS E VALORES -->
+    <section id="planos" class="row w-100 justify-content-md-center pt-5">
+        <div class="d-flex justify-content-top flex-column align-items-center col-12 col-md-12 mt-5">
+            <p class="new-text-primary text-uppercase">Planos e Valores</p>
+            <h3 class="fw-bold text-blue-dark">Pallentesque ornare, ipsum non feugiat aliquet</h3>
+        </div>
+        <div class="d-flex justify-content-center col-12 col-md-12">
+            <div class="card text-center card-size-fixo-planos m-3" data-aos="flip-up" data-aos-delay="400"
+                data-aos-duration="1000">
+                <div class="card-body">
+                    <p class="new-text-primary text-blue-green">Free</p>
+                    <h3 class="card-title pricing-card-title">0,00</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>10 users included</li>
+                        <li>2 GB of storage</li>
+                        <li>Email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button"
+                        class="w-80 btn btn-lg btn-outline-primary border-radius-lados">Assinar</button>
+                </div>
+            </div>
+            <div class="card text-center card-size-fixo-planos m-3" data-aos="flip-up" data-aos-delay="600"
+                data-aos-duration="1000">
+                <div class="card-body">
+                    <p class="new-text-primary text-green">Para você</p>
+                    <h3 class="card-title pricing-card-title">19,90</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>10 users included</li>
+                        <li>2 GB of storage</li>
+                        <li>Email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button"
+                        class="w-80 btn btn-lg btn-outline-primary border-radius-lados">Assinar</button>
+                </div>
+            </div>
+            <div class="card text-center card-size-fixo-planos m-3" data-aos="flip-up" data-aos-delay="800"
+                data-aos-duration="1000">
+                <div class="card-body">
+                    <p class="new-text-primary text-orange">Para empresas</p>
+                    <h3 class="card-title pricing-card-title">29,90</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>10 users included</li>
+                        <li>2 GB of storage</li>
+                        <li>Email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button"
+                        class="w-80 btn btn-lg btn-outline-primary border-radius-lados">Assinar</button>
+                </div>
+            </div>
+            <div class="card text-center card-size-fixo-planos m-3" data-aos="flip-up" data-aos-delay="1000"
+                data-aos-duration="1000">
+                <div class="card-body">
+                    <p class="new-text-primary text-pink">Compartilhado</p>
+                    <h3 class="card-title pricing-card-title">49,90</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>10 users included</li>
+                        <li>2 GB of storage</li>
+                        <li>Email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button"
+                        class="w-80 btn btn-lg btn-outline-primary border-radius-lados">Assinar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLANOS E VALORES -->
+    <section id="contato" class="row w-100 justify-content-md-center pt-5">
+        <div class="d-flex justify-content-top flex-column align-items-center col-12 col-md-12 mt-5">
+            <p class="new-text-primary text-uppercase">Contato</p>
+            <h3 class="fw-bold text-blue-dark">Pallentesque ornare, ipsum non feugiat aliquet</h3>
+            <div class="row justify-content-center col-12 col-md-12 mt-2">
+                <div class="d-flex justify-content-end row col-6 col-md-6">
+                    <div
+                        class="col-5 col-md-5 m-2 card-contact d-flex flex-column justify-content-center align-items-start">
+                        <h5 class="fw-bold text-blue-dark">Endereço</h5>
+                        <p class="fw-light">Rua das Flores, 1212, <br>Pato Branco - PR</p>
+                    </div>
+                    <div
+                        class="col-5 col-md-5 m-2 card-contact d-flex flex-column justify-content-center align-items-start">
+                        <h5 class="fw-bold text-blue-dark">Telefones</h5>
+                        <p class="fw-light">(46) 9 9999-9999 <br>(49) 9 9170-7070</p>
+                    </div>
+                    <div
+                        class="col-5 col-md-5 m-2 card-contact d-flex flex-column justify-content-center align-items-start">
+                        <h5 class="fw-bold text-blue-dark">Email Us</h5>
+                        <p class="fw-light">info@exemplo.com<br>contato@exemplo.com</p>
+                    </div>
+                    <div
+                        class="col-5 col-md-5 m-2 card-contact d-flex flex-column justify-content-center align-items-start">
+                        <h5 class="fw-bold text-blue-dark">Horários</h5>
+                        <p class="fw-light">Segunda a sexta-feira <br> 8h30 às 18h00</p>
+                    </div>
+                </div>
+                <div class="d-flex row col-5 col-md-5">
+                    <form class="card-form-contact m-2">
+                        <div class="row m-1 mt-2">
+                            <div class="w-47 d-flex flex-column margin-r">
+                                <label class="text-gray fw-light" for="name">Nome</label>
+                                <input class="input-contact" type="text" name="name" id="name">
+                            </div>
+                            <div class="w-47 d-flex flex-column">
+                                <label class="text-gray fw-light" for="email">E-mail</label>
+                                <input class="input-contact" type="text" name="email" id="email">
+                            </div>
+                        </div>
+                        <div class="row m-1 mt-2">
+                            <div class="width-100 d-flex flex-column">
+                                <label class="text-gray fw-light" for="assunto">Assunto</label>
+                                <input class="input-contact" type="text" name="assunto" id="assunto">
+                            </div>
+                        </div>
+                        <div class="row m-1 mt-2">
+                            <div class="width-100 d-flex flex-column">
+                                <label class="text-gray fw-light" for="message">Mensagem</label>
+                                <textarea class="input-contact" type="text" name="message" id="message"
+                                    rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-5 col-md-5 mx-auto mt-3">
+                                <button type="submit" class="w-80 btn btn-lg btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="row w-100 h-50 justify-content-md-center pt-5">
+        <div class="row m-5 d-flex justify-content-between">
+            <div class="width-45 p-2">
+                <p class="text-primary">Lorem Ipsum</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo cumque ipsam necessitatibus enim quis dolorem eius eum tenetur ullam quia, nulla aut deleniti sint cupiditate animi voluptatibus ad error?</p>
+            </div>
+            <div class="width-18 p-2">
+                <h5 class="fw-lighter text-dark">Links Úteis</h5>
+                <ul>
+                    <li><a href="#home" class="text-primary">Home</a></li>
+                    <li><a href="#empresa" class="text-primary">Empresa</a></li>
+                    <li><a href="#planos" class="text-primary">Planos</a></li>
+                    <li><a href="#planos" class="text-primary">Serviços</a></li>
+                    <li><a href="#" class="text-primary">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="width-18 p-2">
+                <h5 class="fw-lighter text-dark">Outros Serviços</h5>
+                <ul>
+                    <li><a href="#" class="text-primary">Web Design</a></li>
+                    <li><a href="#" class="text-primary">Aplicações Móveis</a></li>
+                    <li><a href="#" class="text-primary">Aplicações Web</a></li>
+                    <li><a href="#" class="text-primary">Marketing</a></li>
+                    <li><a href="#" class="text-primary">Design Gráfico</a></li>
+                </ul>
+            </div>
+            <div class="width-18 p-2">
+                <h5 class="fw-lighter text-dark">Outros Serviços</h5>
+                <p class="fw-light text-gray">Avenida Brasil <br>Pato Branco <br>Paraná</p>
+                <br>
+                <p class="fw-light text-gray"><span class="fw-bold text-dark">Telefone:</span> (46) 99999-88-77</p>
+                <p class="fw-light text-gray"><span class="fw-bold text-dark">E-mail:</span> info@exemplo.com</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
+    <!-- Feather Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>feather.replace()</script>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
