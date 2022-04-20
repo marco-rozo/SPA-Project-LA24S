@@ -18,6 +18,31 @@ section {
     color: var(--text-primary) !important;
 }
 
+.rs-position-0 {
+    left: 100px !important
+}
+
+.rs-position {
+    font-size: 14px;
+    position: absolute;
+    top: 70px;
+    left: 92px;
+}
+
+.notification {
+    text-align: center;
+    font-size: 9px;
+    font-weight: 300;
+    position: absolute;
+    top: 22px;
+    right: 82px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    width: 14px;
+    height: 14px;
+}
+
 .text-blue-dark {
     color: var(--text-dark) !important;
 }
@@ -105,15 +130,15 @@ footer {
     padding-inline: 10%;
 }
 
-footer p{
+footer p {
     font-size: 0.9rem;
-    margin: 0!important;
+    margin: 0 !important;
 }
 
-.width-18{
+.width-18 {
     width: 18% !important;
 }
-.width-45{
+
+.width-45 {
     width: 45% !important;
 }
-
