@@ -115,7 +115,8 @@ section {
 }
 
 #home {
-    background-image: url('/docs/assets/background.jpeg');
+    background-image: url('../docs/assets/background.jpeg');
+    /* background-image: url('./docs/assets/background.jpeg'); */
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: right;
