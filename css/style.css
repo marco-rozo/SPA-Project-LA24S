@@ -116,7 +116,6 @@ section {
 
 #home {
     background-image: url('../docs/assets/background.jpeg');
-    /* background-image: url('./docs/assets/background.jpeg'); */
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: right;
@@ -124,10 +123,6 @@ section {
 
 footer {
     background-color: #fafafa;
-    /* background-image: url('/docs/assets/world_map_preview.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-attachment: fixed; */
     padding-inline: 10%;
 }
 
